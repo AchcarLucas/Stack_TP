@@ -1,5 +1,5 @@
-#ifndef PILHA_H_INCLUDED
-#define PILHA_H_INCLUDED
+#ifndef STACK_H_INCLUDED
+#define STACK_H_INCLUDED
 
 template <typename T>
 struct Stack{
@@ -81,4 +81,4 @@ bool Stack<T>::isEmpty(){
     return head == 0;
 }
 
-#endif // PILHA_H_INCLUDED
+#endif // STACK_H_INCLUDED
